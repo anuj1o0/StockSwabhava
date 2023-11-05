@@ -1,27 +1,44 @@
 import React from 'react';
-import "./whyus.css";
-import Image1 from "./image1.jpg";
-import Image2 from "./image2.jpg";
-import Image3 from "./image3.jpg";
+import './whyus.css';
+
+import { FaLightbulb, FaUser, FaChartLine, FaGlobe, FaDollarSign, FaBalanceScale } from 'react-icons/fa';
+
 
 const WhyChooseUs = () => {
+
+  
+
   const cards = [
     {
-      image: Image1, // Replace with your image URL
-      title: 'Sentiment-Driven Recommendations',
-      description: 'Our platform uses sentiment analysis to provide stock recommendations tailored to your emotions.',
+      icon: FaLightbulb,
+      title: 'Innovative Solutions',
+      description: 'Our platform offers innovative solutions for smart investing.',
     },
     {
-      image: Image2, // Replace with your image URL
-      title: 'User-Friendly Interface',
-      description: 'We offer an intuitive and easy-to-use interface for hassle-free stock trading.',
+      icon: FaUser,
+      title: 'User-Centric Design',
+      description: 'We prioritize user experience and provide an intuitive interface.',
     },
     {
-      image: Image3, // Replace with your image URL
-      title: 'Real-time Market Data',
-      description: 'Access up-to-date market data and insights to make informed investment decisions.',
+      icon: FaChartLine,
+      title: 'Data-Driven Insights',
+      description: 'Access real-time market data and analytics for informed decisions.',
     },
-    // Add more cards as needed
+    {
+      icon: FaGlobe,
+      title: 'Global Reach',
+      description: 'Explore investment opportunities worldwide with our global reach.',
+    },
+    {
+      icon: FaDollarSign,
+      title: 'Risk Tolerance',
+      description: 'Tailored investment options based on your risk tolerance.',
+    },
+    {
+      icon: FaBalanceScale,
+      title: 'Long-Term Investments',
+      description: 'Plan for the future with long-term investment strategies.',
+    },
   ];
 
   return (
@@ -29,17 +46,24 @@ const WhyChooseUs = () => {
       <div className="heading">
         <h2>Why Choose Stock Sambhavna..?</h2>
       </div>
+      
       <div className="cards">
         {cards.map((card, index) => (
           <div className="card" key={index}>
-            <img src={card.image} alt={`Card ${index}`} />
+            <div className="card-icon">
+              {renderIcon(card.icon)}
+              <div className="description">
+                <p>{card.description}</p>
+              </div>
+            </div>
             <h3>{card.title}</h3>
-            <p>{card.description}</p>
           </div>
         ))}
       </div>
     </div>
   );
 };
+
+const renderIcon = (IconComponent) => <IconComponent size={64} color="#E5C3A6" />;
 
 export default WhyChooseUs;

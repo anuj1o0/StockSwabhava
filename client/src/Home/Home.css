@@ -148,7 +148,23 @@
   
   /* ... (remaining styles) */
   
+  .login-button, .signup-button {
+    background: #0076b600;
+    backdrop-filter: blur(4px);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
   
+  .login-button:hover, .signup-button:hover {
+    background: #d3d7d828; /* Darker color on hover */
+  }
   
   /* ... (remaining styles) */
   

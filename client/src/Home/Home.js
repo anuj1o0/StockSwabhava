@@ -34,10 +34,10 @@ const Home = (props) => {
             <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
-        <div className="header-search">
-          <input type="text" placeholder="Search" />
-          <button>Search</button>
-        </div>
+        <div className="buttons">
+      <button className="login-button">Login</button>
+      <button className="signup-button">Sign Up</button>
+    </div>
       </header>
 
       <div className="content-container">
