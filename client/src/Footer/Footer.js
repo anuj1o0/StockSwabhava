@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-links">
           <a href="/">Home</a>
-          <a href="/news">News</a>
-          <a href="/whyus">Why Choose Us</a>
+          <a href="/news">Try Now</a>
+          {/* <a href="/whyus">Why Choose Us</a> */}
           <a href="/contact">Contact Us</a>
         </div>
         <div className="contact-details">
-          <p>Contact us at: contact@example.com</p>
-          <p>123 Street Name, City, Country</p>
+          <p>Contact us at: contact@INVESTORस्वाभाव.com</p>
+          <p>@ all right reserved, INVESTORस्वाभाव</p>
         </div>
         <div className="social-icons">
           <a href="https://www.instagram.com/yourinstagram" target="_blank" rel="noopener noreferrer">
@@ -23,7 +23,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </div>

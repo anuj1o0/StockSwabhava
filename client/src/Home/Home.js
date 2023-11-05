@@ -29,9 +29,9 @@ const Home = (props) => {
         <nav className="header-nav">
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/news">News</a></li>
-            <li><a href="/stocks">Stocks</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/news">Why Us</a></li>
+            <li><a href="/stocks">News</a></li>
+            <li><a href="/contact">Try Now</a></li>
           </ul>
         </nav>
         <div className="buttons">
@@ -42,9 +42,9 @@ const Home = (props) => {
 
       <div className="content-container">
         <div className="left-content">
-          <h1>Sentiment Stocks</h1>
+          <h1>Sentimental Investment</h1>
           <h2>Sentiment Intelligence</h2>
-          <p>Emotion-driven stock recommendations <br /> tailored to your unique sentiment profile. Invest wisely.</p>
+          <p>AI-Driven Investing Personality <br /> tailored to your unique sentiment profile. Invest wisely.</p>
           <button>Explore Now</button>
         </div>
         {/* <div className="right-content">
