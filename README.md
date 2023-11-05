@@ -28,14 +28,4 @@ InvestorSvaabhav is built using:
 
 We are team Amigos!
 
-## Pitch Deck
 
-View our pitch deck [here](link_to_pitch_deck).
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
-
-## Contributing
-
-We welcome contributions to this project! See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
