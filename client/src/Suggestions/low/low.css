@@ -1,0 +1,47 @@
+/* Main Component (InvestorSwabhav) Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: right;
+    padding: 20px;
+    margin: 0;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* CategoryCard Component Styles */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .stock-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stock-item {
+    border: 1px solid #eee;
+    padding: 5px;
+    margin: 5px;
+  }
+  

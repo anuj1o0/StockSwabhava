@@ -1,7 +1,7 @@
 /* News Page Styles */
 
 .news-page {
-    background-color: #23153c;
+    background-color: #d9d9d9;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
   }
@@ -15,7 +15,7 @@
   
   .news-header h2 {
     font-size: 26px;
-    color: #ede8e8;
+    color: #424141;
 
   }
   

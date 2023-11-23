@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-   background-color: #23153c;
+   background-color: #d9d9d9;
     text-align: center;
     width: 100%;
     
@@ -17,14 +17,14 @@
     /* margin-top: 100px; */
     padding-top: 50px;
     margin-bottom: 30px;
-    color: white;
+    color: #3a3939;
   }
   
   .heading h2 {
     
     font-size: 36px;
    font-weight: bold;
-    color: #ffffff; /* Customize the color */
+   color: #3a3939; /* Customize the color */
   }
   
   /* Style for the Cards */
@@ -39,13 +39,13 @@
     padding: 20px;
     /* border: 1px solid #e0e0e0; */
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background: rgba(255, 255, 255, 0.082); /* Add backdrop filter and background color */
+    background: white; /* Add backdrop filter and background color */
     backdrop-filter: blur(4px); /* Add a backdrop filter for background blur */
     width: 300px;
     transition: transform 0.2s;
-    color: white; /* Set font color to white */
+    color: #0a0a0a; /* Set font color to white */
   }
   
   .card:hover {
@@ -64,12 +64,12 @@
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
-    color: white; /* Customize the text color */
+    color: #3a3939; /* Customize the text color */
   }
   
   .card p {
     font-size: 16px;
-    color: white; /* Customize the text color */
+    color: #3a3939; /* Customize the text color */
   }
   
   /* Add media queries for responsive design as needed */

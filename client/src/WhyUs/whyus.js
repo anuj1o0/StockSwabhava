@@ -64,6 +64,6 @@ const WhyChooseUs = () => {
   );
 };
 
-const renderIcon = (IconComponent) => <IconComponent size={64} color="#E5C3A6" />;
+const renderIcon = (IconComponent) => <IconComponent size={64} color="#3a3939" />;
 
 export default WhyChooseUs;

@@ -12,7 +12,10 @@ const Home = (props) => {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(NETS({
-        el: myRef.current
+        el: myRef.current,
+        backgroundColor:0xd9d9d9,
+        color: 0x0,
+        color2: 0x0
       }))
     }
     return () => {

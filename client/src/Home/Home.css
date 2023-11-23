@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 0); /* Clear background with some opacity */
-    padding: 20px;
+    padding: 7px;
     font-weight: 600;
     /* Add any other styles for the header */
   }
@@ -37,7 +37,7 @@
   
   .header-nav ul li a {
     text-decoration: none;
-    color: #ffffff; /* Set the desired color for the navigation links */
+    color: #3a3939; /* Set the desired color for the navigation links */
   }
   
   /* Style for the Centered Elements */
@@ -61,6 +61,7 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
       width: 200px; /* Adjust the width as needed */
       font-size: 16px;
+      color: #3a3939;
     }
   
     /* Style for the Search Button */
@@ -102,25 +103,25 @@
   
   .left-content h1 {
     font-size: 58px;
-    color: #ffffff;
+    color: #3a3939;
   }
   
   .left-content h2 {
     font-size: 28px;
-    color: white; /* Subheading color */
+    color: #3a3939; /* Subheading color */
   }
   
   .left-content p {
     font-size: 18px;
     margin-top: 10px;
-    color: white;
+    color: #3a3939;
   }
   
   /* ... (previous styles) */
   
   /* Style for the "Explore Now" Button */
   .left-content button {
-    background: #0077b6;
+    background: #2d2e2e;
     color: white;
     border: none;
     border-radius: 15px;
@@ -153,7 +154,7 @@
   .login-button, .signup-button {
     background: #0076b600;
     backdrop-filter: blur(4px);
-    color: #ffffff;
+    color: #3a3939;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 20px;
