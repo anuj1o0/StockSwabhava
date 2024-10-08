@@ -20,15 +20,6 @@ InvestorSvaabhav is built using:
 - NodeJS
 - MongoDB
 
-## Presentation Link
-https://www.canva.com/design/DAFzQxn6VPQ/gJysEFEQCIQeUSIxv94d_w/edit?utm_content=DAFzQxn6VPQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## Team
-
-- Shreya Khanna
-- Amartya Saran
-- Anuj Srivastava
-
-We are team Amigos!
 
 
